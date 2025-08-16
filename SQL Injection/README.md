@@ -230,7 +230,7 @@
 
 <br>
 
-1. **Determine how many columns are in the original query.**  The number of "nulls" injected needs to be adjusted:
+1. **Determine how many columns are in the original query.**  The number of "nulls" injected needs to be adjusted ( On Oracle databases, every SELECT statement must specify a table to select FROM, default table is dual ):
 
 ```
 ' union select null, null--
