@@ -246,7 +246,7 @@
 3. **Extract table names from the database:**
 
 ```
-' union select table_name, null from information_schema.tables--
+' union select table_name, null from information_schema.tables-- (all_tables)
 ```
 
 
